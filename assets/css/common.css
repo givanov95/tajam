@@ -1,0 +1,107 @@
+.section { 
+	padding: 7% 1%;
+}
+
+.section .row { 
+	display: flex;
+	margin: 2% 0;
+}
+
+/*.section__column {
+	flex-grow: 1;
+	flex-basis:0;
+}
+*/
+
+
+.container { 
+	width:calc(100% - 15px);
+}
+
+.wrapper { 
+	padding: 10px;
+}
+
+.row {
+    display: flex;
+    margin: 10px 0;
+}
+
+.col { 	
+	margin: 20px 10px;	
+}
+
+.shell { 
+	max-width: 70%;
+	padding-right: 0;
+	padding-left: 0;
+	margin: auto;
+}
+
+hr {
+	width: 20%;
+	margin: 2% auto 3%;
+	background: #00e0d0;
+}
+
+.col--flex {
+	display: flex;
+}
+
+.align--center {
+	margin: 0 auto;
+	width: max-content;
+}
+
+.btn{ 
+	display: inline-block;	
+	border-radius: 2px;	
+	font-weight: 600;
+	margin-top: 20px;
+	padding: 10px;
+	font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.btn:hover {
+	background: #00e0d0;
+	color:white;
+	cursor: pointer;
+}
+
+.btn--theme { 
+	background: transparent;
+	color: #00e0d0;
+	border:1px solid #00e0d0;
+}
+
+.text--white {
+	color: white;
+}
+
+.text--black {
+	color: black!important;
+}
+
+.text--center {
+	text-align: center;
+}
+
+
+.padding--sm {
+	padding: 5px;
+}
+
+.padding--m {
+	padding: 10px;
+}
+
+.float--right {
+	margin-left: auto;
+}
+
+.display--block { 
+	display: block;
+}

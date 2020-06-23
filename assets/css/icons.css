@@ -1,0 +1,40 @@
+	
+/*icons*/
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css");
+
+.section i { 
+	font-size: 3em;	
+}
+
+.section-expertise i {
+	color:#acece8;
+	margin:5% 0;
+} 
+
+footer .section i { 
+	color: white;
+	font-size: 1em;
+}
+
+.row-social a {
+	display: block;
+	float: left;	
+	width: 36px;
+	height: 36px;
+	border: 2px solid #909090;
+	border-radius: 20px;
+	text-align: center;
+	margin-right: 7px;
+}
+
+.row-social a i{ 
+	padding-top: 24%;
+    font-size: 16px;
+    
+}
+
+
+
+
+/*end_icons*/

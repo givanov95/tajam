@@ -1,0 +1,22 @@
+.section-video {
+	background: url("../images/overlay.png") repeat, url('../images/video-background.png') no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-video__play-icon {
+	color: white;
+	text-align: center;
+}
+
+.section .section-video__play-icon i {
+	font-size: 5em;
+}
+
+.section-video__text {
+	margin-top: 10%;
+	color: white;
+}

@@ -1,0 +1,18 @@
+@import "reset.css";
+@import "typo.css";
+@import "icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@100;300&display=swap" ');
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+@import "section-story.css";
+@import "section-video.css";
+@import "section-team.css";
+@import "section-expertise.css";
+@import "section-team.css";
+@import "section-portfolio.css";
+@import "section-feedback.css";
+@import "section-news.css";
+@import "section-footer.css";
+
+

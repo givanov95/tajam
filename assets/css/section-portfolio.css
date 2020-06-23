@@ -1,0 +1,17 @@
+.section-portfolio {
+	text-align: center;
+}
+
+.section-portfolio .row {
+	margin: 0;
+	padding: 0;
+}
+
+.section-portfolio .col {
+	margin: 0;
+}
+
+.section-portfolio .col img {
+	max-width: 100%;
+	height: 100%;
+}

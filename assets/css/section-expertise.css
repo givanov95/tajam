@@ -1,0 +1,22 @@
+.section-expertise {
+	text-align: center;
+}
+
+.section-expertise .row {
+	margin: 0;
+}
+
+.section-expertise .row:nth-child(1) {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.section-expertise .col {
+	padding: 2%;
+}
+
+.section-expertise .row .col:nth-child(2) {
+	border: 1px solid #ebebeb;
+	border-top: none;
+	border-bottom: none;
+	margin: 0;
+}

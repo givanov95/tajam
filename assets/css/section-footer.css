@@ -1,0 +1,50 @@
+
+
+.section-footer {
+	background: url("../images/overlay.png") repeat, url('../images/footer-bg.png') no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.section-footer .col {
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+footer .company-name {
+	vertical-align: text-bottom;
+}
+
+footer input, footer button {
+	border: 1px solid #9e98af;
+	opacity: .6;
+	background: white;
+}
+
+footer input {
+	background: none;
+	color: white
+}
+
+::-webkit-input-placeholder {
+	/* Edge */
+	color: white;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: white;
+}
+
+footer input::placeholder {
+	color: white;
+}
+
+.footer__row-bottom a {
+	padding: 0 1%;
+	color: white;
+}
+
+.footer__row-bottom span {
+	padding: 0 8%;
+}

@@ -1,0 +1,100 @@
+.header {
+	margin: 0 15%;
+	padding: 2%;
+	width: 70%;
+	position: absolute;
+	-webkit-align-items: flex-start;
+	align-items: flex-start;
+}
+
+.hero {
+	height: 70vh;	
+	background: url("../images/overlay.png") repeat,
+	url("../images/hero.png")left top;
+	background-size: cover;
+	padding: 0;
+    margin: 0;
+	overflow: hidden; 
+}
+
+.hero__text { 
+	margin: 23vh auto auto;
+    width: 53%;
+    color:white;
+    text-align: center;
+}
+
+.hero__text .btn { 
+	width: 20%;
+    margin: 5% auto;	
+}
+
+.header-menu {
+	display: inline-flex;
+	width: 65%;
+	float: right;
+}
+
+.header-menu li {
+	text-align: center;
+}
+
+.header__logo {
+	padding: 0 1%;
+	vertical-align: middle;
+}
+
+.company-name {
+	color: #2396a4;
+	font-size: 30pt;
+	font-weight: 100;
+	vertical-align: middle;
+}
+
+.header-menu a.active {
+	color: #39b4af;
+}
+
+.header-menu li:hover { 
+	background: #39b4af;
+	color:white;
+	border-radius: 2px;
+}
+
+.header-menu li {
+	padding: 3% 0%;
+	list-style: none;
+	flex-grow: 1;
+}
+
+.header-menu li a {
+	color: white;
+	font-size: 13px;
+}
+
+
+
+.additional_images {
+	padding: 4%;
+	text-align: center;
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+	background-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #eee;
+}
+
+.dot.active {
+	background-color: #00e0d0;
+}
+
+
+.arrow {
+	font-size: 2em;
+	padding: 0 0.5em;
+	color: #9f9f9f;
+}

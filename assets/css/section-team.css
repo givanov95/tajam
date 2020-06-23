@@ -1,0 +1,11 @@
+.section-team {
+	background: url("../images/overlay.png") repeat, url('../images/employee-background.png') no-repeat;
+	background-size: cover;
+}
+.section-team .col {
+	border: .5px solid white;
+}
+
+.section-team__bottom {
+	padding: 10%;
+}

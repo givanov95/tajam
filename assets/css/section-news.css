@@ -1,0 +1,22 @@
+.section-news .section-news__submit-button {
+	padding: 1% 5%;
+}
+
+.section-news .col {
+	margin: 20px 35px;
+	flex-basis: 0;
+	flex-grow: 1;
+
+}
+
+.section-news__happy-clients-column .col {
+	padding: 0 6%;
+}
+
+.section-news input {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 2%;
+	margin: 4% 0;
+	border-radius: 2px;
+}
